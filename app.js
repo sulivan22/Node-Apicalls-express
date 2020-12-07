@@ -1,24 +1,48 @@
-const express = require('express');
-***REMOVED***
-const axios = require('axios');
-
-
-const hbs = require('hbs');
-require('./hbs/helpers');
-
 ***REMOVED***
 ***REMOVED***
-app.use(express.static(__dirname + '/public'));
-
 ***REMOVED***
-hbs.registerPartials(__dirname + '/views/parciales');
-app.set('view engine', 'hbs');
-
-app.get('/', (req, res) => {
-    res.render('index');
 ***REMOVED***
 
 ***REMOVED***
 ***REMOVED***
-    console.log(`Escuchando peticiones en el puerto ${ port }`);
+
+***REMOVED***
+***REMOVED***
+***REMOVED***
+
+***REMOVED***
+***REMOVED***
+***REMOVED***
+
+***REMOVED***
+***REMOVED***
+***REMOVED***
+
+***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***"https://www.yourapi.com");
+
+***REMOVED***
+***REMOVED***
+
+***REMOVED***
+***REMOVED***
+***REMOVED*** catch (error) {
+    console.error(error);
+***REMOVED***
+
+***REMOVED*** https://www.geekstrick.com/create-website-with-handlebars-express-nodejs/#Bind_Data_To_Template
+  res.render("index", {
+    api: "This is the api",
+    getyear: "2020",
+
+  ***REMOVED*** Print dataAsJson as a string
+    apiResult: JSON.stringify(dataAsJson),
+***REMOVED***);
+***REMOVED***
+
+***REMOVED***
+***REMOVED***
+***REMOVED***
 ***REMOVED***
