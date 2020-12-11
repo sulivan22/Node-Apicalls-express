@@ -10,7 +10,7 @@ var config = {
 // helpers
 hbs.registerHelper('getyear', () => {
     return new Date().getFullYear();
-***REMOVED***
+});
 
 
 hbs.registerHelper('api', () => {
@@ -19,9 +19,9 @@ hbs.registerHelper('api', () => {
         .then(function(response) {
             console.log(response.data);
 
-      ***REMOVED***)
+        })
         .catch(function(error) {
             console.log(error);
 
-      ***REMOVED***);
-***REMOVED***
+        });
+});

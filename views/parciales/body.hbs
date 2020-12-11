@@ -3,6 +3,17 @@
     Hello World
     <p>{{{ api }}}.</p>
     <p>{{{ getyear }}}.</p>
-    <p>{{{ apiResult }}}.</p>
+    
+    {{#with customerData}}
+    <div>Customer: {{customerName}}</div> 
+    <div>Balance: {{balance}}</div> 
+    <div>Blocked: {{blocked}}</div> 
+    <div>Email: {{emailAddress}}</div> 
+    <div>Geo Call CLI: {{geoCallCLI}}</div> 
+    {{/with}}
+
+    {{#if errorMessage}}
+    <p>Error: {{errorMessage}}</p>
+    {{/if}}
 
 </body>
