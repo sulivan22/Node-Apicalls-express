@@ -24,7 +24,7 @@ app.get("/", async (req, res) => {
   try {
     // https://www.valentinog.com/blog/http-js/#making-http-requests-with-nodejs-the-node-fetch-module
     const response = await fetch(
-      `https://www.voipinfocenter.com/API/Request.ashx?command=getuserinfo&username=call2casa&password=${process.env.API_PASSWORD}&customer=sulivan`
+      `https://www.voipinfocenter.com/API/Request.ashx?command=getuserinfo&username=XXXXXXX&password=xxxxxx&customer=xxxxxxx`
     );
 
     // Get the HTTP response body
